@@ -1,0 +1,7 @@
+Q: I have 100 CPU cores. My code is 0.4% serial code. What is maximum speed-up I can obtain?
+
+A: 
+f is 0.4
+S(p,N)=T(1,N)/T(p,N)=1/(f+(1-f)/p)=1/(0.4+0.96/100) =2.44
+
+So compared with running on 1 core, maximum speed-up is about 2.44 times.
